@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora</title>
+    <link rel="stylesheet" type="text/css" href="PEstilo.css"> 
+    <script src="Bit.js"></script>
+</head>
+<body>
+    <div class="regresa2" ><a href="index.html">Pagina inicial</a></div>
+    <header>Bitacora de Ingresos y egresos</header>
+    <img class="Bit" src="Color.png">
+    <div id= "1"onmouseover="cambia('1', 'si')" onmouseout="cambia('1', '')" class="Cbit1">En el siguiente apartado podra ingresar sus ingresos asi como los egresos de su dia o semana, para asi
+        <br> llevar un registro de estos y aprovechar de mejor manera su saldo.</div>
+    <div id= "2"onmouseover="cambia('2', 'si')" onmouseout="cambia('2', '')" class="aviso"> <br><br><br><br><br><br><br>Al registrar sus egresos hagalo colocado el signo negativo (-)<br>Ejemplo: si es un egreso de $20 <br>se introduce como -20</div>
+<img class="simbolo" src="alerta.png">
+<h3 class="sueño">Total de efectivo restante:</h3>
+
+<button id="BtnCuenta" class="BtnCuenta">Contar</button>
+<button id="BtnClear" class="BtnClear">Limpiar</button>
+<p class="P" id="ContarClick"></p>
+<p class="P2" id="ContarIngreso"></p>
+<script>
+  
+    
+    var Pingreso=document.getElementById('ContarIngreso')
+
+
+
+var btnContador=document.getElementById('BtnCuenta'),
+BtnClear=document.getElementById('BtnClear');
+var contar=0;
+var Pcuenta=document.getElementById('ContarClick');
+var help=0
+
+btnContador.onclick=function(){
+    var  ingreso = prompt('Escriba su ingreso/egreso');
+    var  Ningreso=Number(ingreso);
+    contar++;
+    help=Ningreso+help
+
+    Pingreso.textContent=help;
+    Pcuenta.textContent=contar;
+}
+
+
+
+BtnClear.onclick=function() {
+    Pcuenta.textContent=0;
+    Pingreso.textContent=0;
+    contar=0;
+    help=0;
+}
+</script>
+</body>
+</html>

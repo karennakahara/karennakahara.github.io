@@ -1,0 +1,618 @@
+/* PAGINA PRINCIPAL*/
+
+body{
+    background-color: rgb(222, 200, 241);
+}
+
+.cont1{
+    background-color: #ffffff;
+    position:absolute; top:70px; 
+    width: 980px;
+    height: 310px;
+    margin-left: 250px;
+    border-radius: 0px 0px 10px 10px ;
+   text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+}
+
+.im1{
+    position: absolute; top: 320px;
+    margin-left: 25px;
+    width: 90px;
+    height: 90px;
+}
+.im15{
+    position: absolute; top: 150px;
+    margin-left: 1300px;
+    width: 80px;
+    height: 80px;
+}
+.im2{
+    position: absolute; top: 30px;
+    margin-left: 1400px;
+    width: 80px;
+    height: 80px;
+}
+.im21{
+    position: absolute; top: 290px;
+    margin-left: 1380px;
+    width: 80px;
+    height: 80px;
+}
+.im22{
+    position: absolute; top: 200px;
+    margin-left: 90px;
+    width: 80px;
+    height: 80px;
+}
+.im3{
+    position: absolute; top: 430px;
+    margin-left: 100px;
+    width: 80px;
+    height: 80px;
+}
+.im31{
+    position: absolute; top: 520px;
+    margin-left: 1390px;
+    width: 80px;
+    height: 80px;
+}
+.im4{
+    position: absolute; top: 560px;
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+}
+.im41{
+    position: absolute; top: 430px;
+    margin-left: 1300px;
+    width: 80px;
+    height: 80px;
+}
+.imagen{
+    width: 250px;
+    height: 250px;
+    position: absolute; top:1600px;
+    margin-left: 1000px;
+}
+.Titulo{
+    text-align: center;
+    font-family: cursive;
+    background-color: #ffffff;
+    position: absolute;top:10px;
+    width: 1000px;
+    height: 70px;
+    margin-left: 250px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    border: 0; 
+}
+ 
+#menu ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+ 
+#menu ul {
+    position: relative;
+    z-index: 597;
+    float: left; 
+}
+ 
+#menu ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle; 
+}
+ 
+#menu ul li.hover,
+#menu ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default; 
+}
+ 
+#menu ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%; 
+}
+ 
+#menu ul ul li {
+    float: none; 
+}
+ 
+#menu ul li:hover > ul {
+    visibility: visible; 
+}
+ 
+#menu ul ul {
+    top: 0;
+    left: 100%; 
+}
+ 
+#menu ul li {
+    float: none; 
+}
+ 
+#menu {
+    width: 200px; 
+}
+ 
+#menu span, #menu a {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none; 
+}
+ 
+#menu:after, #menu ul:after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+ 
+#menu ul, #menu li {
+    width: 100%; 
+}
+#menu li {
+    background: #d494d5;
+}
+#menu li:hover {
+    background: #8e89d0; 
+}
+#menu a {
+    color: #000000;
+    line-height: 160%;
+    padding: 11px 28px 11px 28px;
+    width: 253px; 
+}
+#menu ul ul li {
+    background: #f6f6f6; 
+}
+#menu ul ul li:hover {
+    background: #dddddd; 
+}
+#menu ul ul li:hover a {
+    color: #666666; 
+}
+#menu ul ul li ul li {
+    background: #dddddd; 
+}
+#menu ul ul li ul li:hover {
+    background: #b7b7b7; 
+}
+#menu .has-sub {
+    position: relative; 
+}
+ 
+#menu .has-sub:after, #menu .has-sub > ul > .has-sub:hover:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5px;
+}
+ 
+#menu .fa-angle-right {
+    float: right;
+}
+.cont2{
+    text-align: center;
+    font-family: cursive;
+    background-color: #a7da9b;
+    position: absolute;top:450px;
+    width: 1000px;
+    height: 70px;
+    margin-left: 250px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.cont3{
+text-align: center;
+padding: 5px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 50%;
+width: 250px;
+height: 250px;
+position: absolute;top:600px;
+margin-left: 150px;
+background-color: #a7da9b;
+}
+.cont4{
+text-align: center;
+padding: 5px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 50%;
+width: 250px;
+height: 250px;
+position: absolute;top:600px;
+margin-left: 470px;
+background-color: #a7da9b;
+}
+.cont5{
+text-align: center;
+padding: 5px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 50%;
+width: 250px;
+height: 250px;
+position: absolute;top:600px;
+margin-left: 780px;
+background-color: #a7da9b;
+}
+.cont6{
+text-align: center;
+padding: 5px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 50%;
+width: 250px;
+height: 250px;
+position: absolute;top:600px;
+margin-left: 1100px;
+background-color: #a7da9b;
+}
+.cont7{
+    text-align: center;
+    font-family: cursive;
+    background-color: #e09ccf;
+    position: absolute;top:900px;
+    width: 1000px;
+    height: 70px;
+    margin-left: 250px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.cont8{
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+    border-radius: 10px 10px 10px 10px;
+    width: 500px;
+    height: 180px;
+    position: absolute;top:1000px;
+    margin-left: 200px;
+    background-color: #da9bd5;
+    }
+.cont9{
+text-align: center;
+padding: 8px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 10px 10px 10px 10px;
+width: 500px;
+height: 180px;
+position: absolute;top:1000px;
+margin-left: 800px;
+background-color: #da9bd5;
+}
+.cont10{
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+    border-radius: 10px 10px 10px 10px;
+    width: 500px;
+    height: 180px;
+    position: absolute;top:1230px;
+    margin-left: 200px;
+    background-color: #da9bd5;
+}
+
+.cont11{
+text-align: center;
+padding: 8px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 10px 10px 10px 10px;
+width: 500px;
+height: 180px;
+position: absolute;top:1230px;
+margin-left: 800px;
+background-color: #da9bd5;
+}
+.cont12{
+    text-align: center;
+    font-family: cursive;
+    background-color: #9cc8e0;
+    position: absolute;top:1500px;
+    width: 1000px;
+    height: 70px;
+    margin-left: 250px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.cont13{
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+    border-radius: 10px 10px 10px 10px;
+    width: 700px;
+    height: 230px;
+    position: absolute;top:1620px;
+    margin-left: 100px;
+    background-color: #9cc8e0;
+    }
+.cont14{
+    text-align: center;
+    font-family: cursive;
+    background-color: #e0db9c;
+    position: absolute;top:1900px;
+    width: 1000px;
+    height: 70px;
+    margin-left: 250px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.cont15{
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+    border-radius: 10px 10px 10px 10px;
+    width: 700px;
+    height: 150px;
+    position: absolute;top:1990px;
+    margin-left: 700px;
+    background-color: #e0db9c;
+    }
+.cont16{
+text-align: justify;
+padding: 10px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 10px 10px 10px 10px;
+width: 500px;
+height: 100px;
+position: absolute;top:2010px;
+margin-left: 100px;
+background-color: #e0db9c;
+}
+.cont17{
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+    border-radius: 10px 10px 10px 10px;
+    width: 600px;
+    height: 200px;
+    position: absolute;top:2200px;
+    margin-left: 150px;
+    background-color: #e0db9c;
+    }
+.cont18{
+text-align: justify;
+padding: 10px;
+font-size: 15px;
+font-family:  'Lucida Sans Unicode';
+border-radius: 10px 10px 10px 10px;
+width: 500px;
+height: 130px;
+position: absolute;top:2450px;
+margin-left: 100px;
+background-color: #9ce0a3;
+}
+.cont19{
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+    font-family:  'Lucida Sans Unicode';
+    border-radius: 10px 10px 10px 10px;
+    width: 600px;
+    height: 130px;
+    position: absolute;top:2250px;
+    margin-left: 800px;
+    background-color: #9ce0a3;
+    }
+.KAREN{
+    width: 200px;
+    height: 200px;
+    position: absolute; top:2500px;
+    margin-left: 1000px;
+}
+
+
+/*PAGINA 2*/
+.regresa{
+    width: 200px;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 1300px;
+}
+.textoC{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(131, 140, 220);
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    margin-left: 500px;
+    position: absolute;top:200px;
+    font-size: 20px;
+}
+.textoC2{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    margin-left: 80px;
+    position: absolute;top:350px;
+    font-size: 15px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.textoC3{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    margin-left: 300px;
+    position: absolute;top:450px;
+    font-size: 15px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+.textoC4{
+    width: 600px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    margin-left: 800px;
+    position: absolute;top:550px;
+    font-size: 15px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+.Cim{
+    width: 150px;
+    height: 150px;
+    position: absolute; top: 300px;
+    margin-left: 1100px;
+}
+
+.Casi{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 800px;
+    font-weight: 800;
+    margin-top: 70px;
+}
+/*PAGINA3*/
+.regresa2{
+    width: 200px;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+    padding: 8px;
+    position: relative;Top:95px;
+    margin-left: 1300px;
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #6f538e;
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px; color:#ffffff;
+}
+.Bit{
+    width: 200px;
+    height: 200px;
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.Cbit1{
+width: 400px;
+height: 130px;
+background-color: #ffffff;
+text-align: center;
+font-family:'Lucida Sans Unicode';
+position: absolute; top:210px;
+border-radius: 10px 10px 10px 10px;
+margin-left: 400px;
+padding: 1%;
+}
+.aviso{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(183, 221, 145);
+    text-align: center;
+    padding:5px ;
+    position: absolute; top:300px ;
+    margin-left: 1000px;
+}
+.simbolo{
+    width: 80px;
+    height: 80px;
+    position: absolute; top:340px ;
+    margin-left: 860px;
+}
+.BtnCuenta{
+    background-color: aquamarine;
+    width: 150px;
+    height: 50px;
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;top:500px;
+    margin-left: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.BtnCuenta:hover{
+    background-color: #9cc8e0;
+}
+.P{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 600px;
+    font-weight: 800;
+    margin-top: 180px;
+}
+.BtnClear{
+    background-color: aquamarine;
+    width: 150px;
+    height: 50px;
+    font-family: cursive;
+    font-size: 20px;
+    position: absolute;top:500px;
+    margin-left: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.BtnClear:hover{
+    background-color: #9cc8e0;
+}
+.P2{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 600px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+.sueño{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 540px;
+    font-weight: 600;
+    position: absolute; top:680px;
+}
